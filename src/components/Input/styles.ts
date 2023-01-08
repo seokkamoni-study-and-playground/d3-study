@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Form = styled.form`
   position: absolute;
-  top: 250px;
+  top: 200px;
 `;
 
 export const InnerContent = styled.div`
@@ -12,7 +12,7 @@ export const InnerContent = styled.div`
   border: 1px solid #e2e2e2;
   width: 536px;
   height: 52px;
-  border-radius: 0.4rem;
+  border-radius: 4px;
   padding: 4px 5px;
   background-color: #fff;
 `;
