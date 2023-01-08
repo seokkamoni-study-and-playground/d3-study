@@ -1,3 +1,4 @@
+import theme from 'shared/styles/theme';
 import styled from 'styled-components';
 
 export const Form = styled.form`
@@ -13,6 +14,7 @@ export const InnerContent = styled.div`
   height: 52px;
   border-radius: 0.4rem;
   padding: 4px 5px;
+  background-color: #fff;
 `;
 
 export const Input = styled.input`

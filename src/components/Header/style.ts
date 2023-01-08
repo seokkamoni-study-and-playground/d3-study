@@ -6,4 +6,5 @@ export const Header = styled.div`
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
+  z-index: 1;
 `;

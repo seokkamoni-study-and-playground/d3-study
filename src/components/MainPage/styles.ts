@@ -9,7 +9,7 @@ export const Main = styled.div`
 
   width: 100vw;
   height: 100vh;
-  /* background-image: url(${Background}); */
+  background-image: url(${Background});
   background-repeat: no-repeat;
   background-size: cover;
 `;
