@@ -1,7 +1,7 @@
-export type Color = 'main' | 'sub';
+export type Color = 'orange' | 'sub';
 
 const color: { [key in Color]: string } = {
-  main: '#FFFFFF',
+  orange: '#ff6700',
   sub: '#FFFFFF',
 };
 
