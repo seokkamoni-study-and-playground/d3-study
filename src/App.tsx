@@ -1,13 +1,13 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import Svg from './pages/Svg';
-import theme from './shared/styles/theme';
+import E1 from './components/e-1';
+import Svg from './components/Svg';
 
 function App() {
   return (
-    <ThemeProvider theme={{ theme }}>
-      <Svg />
-    </ThemeProvider>
+    <>
+      {/* <Svg /> */}
+      <E1 />
+    </>
   );
 }
 
