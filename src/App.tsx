@@ -1,12 +1,12 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import Main from './pages/Main';
+import Svg from './pages/Svg';
 import theme from './shared/styles/theme';
 
 function App() {
   return (
     <ThemeProvider theme={{ theme }}>
-      <Main />
+      <Svg />
     </ThemeProvider>
   );
 }
