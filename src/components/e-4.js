@@ -19,7 +19,17 @@ export default function E4() {
       .data(pieGenerator(data))
       .enter()
       .append('path')
-      .attr('fill', 'brown')
+      .attr('fill', (d) => {
+        console.log(Math.max(...data));
+        console.log(Math.min(...data));
+        if (Math.max(...data) === d.data) {
+          return 'red';
+        }
+        if (Math.min(...data) === d.data) {
+          return 'blue';
+        }
+        return 'brown';
+      })
       .attr('stroke', 'black')
       .attr('stroke-width', 4)
       .attr('d', arcGenerator);
